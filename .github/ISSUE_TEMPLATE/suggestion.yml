@@ -1,0 +1,17 @@
+name: Suggestion
+description: I have an idea to share
+title: "[Suggestion]: "
+labels: ["suggestion"]
+assignees:
+  - kamil-kaczmarek
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting your suggestion!
+  - type: textarea
+    id: suggestion-content
+    attributes:
+      label: Share your suggestion here
+      placeholder: Make sure to provide as much context as possible.
+    validations:
+      required: true
