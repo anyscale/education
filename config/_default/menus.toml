@@ -19,14 +19,14 @@
     weight = 40
 
 [[main]]
-    name = "Stable Diffusion Models Fine-Tuning"
-    url = "/modules/genai/stable-diffusion-models-fine-tuning/"
+    name = "Fine-tuning Stable Diffusion"
+    url = "/modules/genai/fine-tuning-stable-diffusion/"
     parent = "Generative AI"
     weight = 1
 
 [[main]]
-    name = "Serving Stable Diffusion Models"
-    url = "/modules/genai/serving-stable-diffusion-models/"
+    name = "Serving Stable Diffusion"
+    url = "/modules/genai/serving-stable-diffusion/"
     parent = "Generative AI"
     weight = 2
 
