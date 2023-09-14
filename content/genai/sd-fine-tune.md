@@ -1,8 +1,8 @@
 +++
-title = "Stable Diffusion Models Fine-Tuning"
+title = "Fine-tuning Stable Diffusion"
 date = 2023-09-13T20:33:28-07:00
 draft = false
-url = "modules/genai/stable-diffusion-models-fine-tuning"
+url = "modules/genai/fine-tuning-stable-diffusion"
 +++
 
 # Dreambooth: Few Shot Fine-Tuning for Personalized Stable Diffusion
@@ -233,9 +233,7 @@ display(Image(filename=class_image_path))
 
 ## 3. Create the Training Dataset
 
-|<img src="https://technical-training-assets.s3.us-west-2.amazonaws.com/genai/training-data-pipeline.jpg" width="100%" loading="lazy">|
-|:-:|
-|Pipeline that duplicates instance images.|
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/genai/training-data-pipeline.jpg" caption="Pipeline that duplicates instance images." >}}
 
 ### Write prompts
 

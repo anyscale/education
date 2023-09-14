@@ -1,8 +1,8 @@
 +++
-title = "Serving Stable Diffusion Models"
+title = "Serving Stable Diffusion"
 date = 2023-09-13T20:33:28-07:00
 draft = false
-url = "/modules/genai/serving-stable-diffusion-models/"
+url = "/modules/genai/serving-stable-diffusion/"
 +++
 
 # Serving Dreambooth with Ray Serve
@@ -32,9 +32,7 @@ Built on top of Ray, it abstracts away the infrastructure complexities while inh
 
 ### Key Components
 
-|<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/serve_architecture.png' width="100%" loading="lazy">|
-|:-:|
-|Ray Serve can independently scale replicas, deployments, and nodes allowing for flexible and dynamic adjustment to incoming request load.|
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/serve_architecture.png" caption="Ray Serve can independently scale replicas, deployments, and nodes allowing for flexible and dynamic adjustment to incoming request load." >}}
 
 1. **Deployment**: A deployment is the fundamental user-facing unit in Ray Serve. Within a deployment are a number of replicas, which are copies of a class or function started in separate Ray Actors, and during runtime, these replicas can be autoscaled to match request traffic.
 
@@ -94,9 +92,7 @@ Let's now move beyond a basic service and deploy our fine-tuned model from the p
 
 Using deployments and binding mechanisms allows you to define complex web service architectures where classes can communicate with each other, and are exposed through HTTP endpoints. Ray Serve manages the deployment, scaling, and routing of these microservices, enabling efficient and scalable serving for machine learning applications.
 
-|<img src="https://technical-training-assets.s3.us-west-2.amazonaws.com/genai/genai-deployment.jpg" width="100%" loading="lazy">|
-|:-:|
-|Data Flow of the Dreambooth application. Stable Diffusion model is deployed on the GPU instance, and accepts requests via APIIngress.|
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/genai/genai-deployment.jpg" caption="Data Flow of the Dreambooth application. Stable Diffusion model is deployed on the GPU instance, and accepts requests via APIIngress." >}}
 
 
 ```python
