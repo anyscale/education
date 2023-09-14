@@ -1,0 +1,88 @@
+[main]
+    separator = "-"
+    description = "Learn Ray and Anyscale"
+    enableDarkMode = true
+    endorse = false
+
+[modules]
+    core = ["bootstrap", "flexsearch", "fontawesome"]
+    optional = ["leaflet", "katex"]
+    excludeSCSS = ["bootstrap"]
+    disableTemplate = ["katex"]
+
+[home]
+    sections = ["llms", "genai", "ray-guides"]
+    fullCover = false
+
+[navigation]
+    anchor = true
+    logo = "/img/logo_icon.svg"
+    color = "body"
+    style = "light"
+    fixed = true
+    offset = "3.8em"
+    search = true
+    breadcrumb = true
+    toc = true
+    sidebar = true
+
+[sections]
+    [sections.llms]
+        title = "LLMs"
+        layout = "card"
+        sort = "title"
+        reverse = false
+        nested = true
+        cols = 3
+        background = "body-tertiary"
+        color = "body"
+        padding = "3"
+        header = "none"
+        footer = "tags"
+        orientation = "horizontal"
+        style = "border-1 card-emphasize"
+        homepage = 3
+        separator = false
+    [sections.genai]
+        title = "Generative AI"
+        sort = "title"
+        reverse = true
+        cols = 3
+        color = ""
+        padding = "0"
+        header = "full"
+        footer = "none"
+        orientation = "stacked"
+        style = "border-0 card-zoom"
+        homepage = 3
+        separator = true
+    [sections.ray-guides]
+        title = "Ray AI Libraries Guides"
+        layout = "card"
+        sort = "title"
+        reverse = false
+        nested = true
+        cols = 1
+        background = "body-tertiary"
+        color = "body"
+        padding = "3"
+        header = "none"
+        footer = "tags"
+        orientation = "horizontal"
+        style = "border-1 card-emphasize"
+        homepage = 3
+        separator = false
+
+[favicon]
+    logo = "img/favicon.png"
+    sizes = [16, 32, 48]
+
+[menus]
+  _merge = "shallow"
+
+[links]
+    ray_docs = "https://docs.ray.io/en/latest/"
+    anyscale_docs = "https://docs.anyscale.com/"
+    anyscale_endpoints = "https://docs.endpoint.anyscale.com/"
+    anyscale = "https://anyscale.com/"
+    anyscale_blog = "https://anyscale.com/blog/"

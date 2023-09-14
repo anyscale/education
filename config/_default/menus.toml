@@ -1,0 +1,43 @@
+[[main]]
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[[main]]
+    name = "LLMs"
+    url = "/modules/llms/"
+    weight = 20
+
+[[main]]
+    name = "Generative AI"
+    url = "/modules/genai/"
+    weight = 30
+
+[[main]]
+    name = "Ray Guides"
+    url = "/modules/ray/"
+    weight = 40
+
+[[main]]
+    name = "Stable Diffusion Models Fine-Tuning"
+    url = "/modules/genai/stable-diffusion-models-fine-tuning/"
+    parent = "Generative AI"
+    weight = 1
+
+[[main]]
+    name = "Serving Stable Diffusion Models"
+    url = "/modules/genai/serving-stable-diffusion-models/"
+    parent = "Generative AI"
+    weight = 2
+
+[[main]]
+    name = "Ray Serve Deep Dive"
+    url = "modules/ray/ray-serve-deep-dive"
+    parent = "Ray Guides"
+    weight = 1
+
+[[main]]
+    name = "Build RAG from First Principles"
+    url = "modules/llms/rag"
+    parent = "LLMs"
+    weight = 1
