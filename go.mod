@@ -1,6 +1,6 @@
 module example.com/learn
 
-go 1.23
+go 1.21
 
 require (
 	github.com/gethinode/hinode v0.20.1 // indirect
