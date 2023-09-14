@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://example.org/learn/'
 languageCode = 'en-us'
 title = 'learn Ray and Anyscale'
 [[module.imports]]
