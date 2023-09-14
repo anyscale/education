@@ -40,6 +40,8 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
+      - name: Install Go
+        run: sudo snap install go --channel=1.21/stable --classic
       - name: Checkout
         uses: actions/checkout@v3
         with:
