@@ -1,7 +1,7 @@
 # 4. Serving Scalable AI: Deploying Our Fine-Tuned ViT Model with Ray Serve
 ---
 
-<img src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_AI_Libraries/RAIL_Serve.png" width="30%" loading="lazy">
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_AI_Libraries/RAIL_Serve.png" >}}
 
 **Milestone 4: Ray Serve for Scalable Deployments**
 
@@ -36,7 +36,7 @@ By the end of this notebook, you'll have a fully deployed, scalable, and efficie
 
 ## 1. Introduction to Ray Serve <a class="anchor" id="1-introduction-to-ray-serve"></a>
 
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/serve_architecture.png' width=700/>
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/serve_architecture.png" >}}
 
 Ray Serve is a scalable model serving library, built on top of Ray, that eases the scaling transition from development to production. Here are some features that define the library:
 
@@ -118,7 +118,7 @@ out
 
 Ray Serve abstracts the complexities of building an HTTP server for serving machine learning models. It allows you to define a deployment class, specify initialization logic, and handle incoming requests, making it easier to deploy and serve models in a production environment.
 
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/deployment.png' width=700/>
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/deployment.png" >}}
 
 Here's how a Ray Serve deployment works:
 

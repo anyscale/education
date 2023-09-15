@@ -1,7 +1,7 @@
 # 2. Scalable Training with Ray Train for ViT Image Classification
 ---
 
-<img src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_AI_Libraries/RAIL_Train.png" width="30%" loading="lazy">
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_AI_Libraries/RAIL_Train.png" >}}
 
 **Milestone 2: Distributed ML Training with Ray Train**
 

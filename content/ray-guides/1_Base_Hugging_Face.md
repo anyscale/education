@@ -31,7 +31,7 @@ Credit: This notebook is based on Nate Raw's blog ["Fine-Tune ViT for Image Clas
 
 The Vision Transformer, or ViT for short, was introduced in a groundbreaking paper by researchers at Google Brain in [June 2021](https://arxiv.org/abs/2010.11929). This innovation explores the concept of tokenizing images, similar to how we tokenize sentences in NLP, enabling us to leverage transformer models for image-related tasks.
 
-![ViT Architecture](https://huggingface.co/blog/assets/51_fine_tune_vit/vit-figure.jpg)
+{{< image src="https://huggingface.co/blog/assets/51_fine_tune_vit/vit-figure.jpg" >}}
 
 This approach can be summarized in three major steps:
 

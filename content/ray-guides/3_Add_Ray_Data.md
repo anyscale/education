@@ -1,7 +1,7 @@
 # 3. Data Pipeline Optimization with Ray Data and Ray Train for ViT Image Classification
 ---
 
-<img src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_AI_Libraries/RAIL_Data.png" width="30%" loading="lazy">
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_AI_Libraries/RAIL_Data.png" >}}
 
 **Milestone 3: Handling Big Data with Ray Data**
 
