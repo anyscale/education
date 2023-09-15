@@ -37,7 +37,7 @@ Ray and Ray Serve -- on top of a resource manager like Anyscale or KubeRay+Kuber
 
 We can structure a basic system as a collection of Serve deployments, including at least one ingress deployment -- it might look like this:
 
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/LLMs/RAG-system-architecture.jpg' width="70%" loading="lazy">
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/LLMs/RAG-system-architecture.jpg" >}}
 
 The key components are
 * Embedder for creating embedding vectors of queries and data

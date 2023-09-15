@@ -95,13 +95,9 @@ After many decades of researchers trying to solve this problem "the hard way," w
 
 > The most famous models in this area (though a bit dated) are https://en.wikipedia.org/wiki/Word2vec ... for a very accessible explanation see http://jalammar.github.io/illustrated-word2vec/
 
-<table><tr><td>
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/LLMs/Word_vector_illustration.jpg' width=75% /></td><td>
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/LLMs/T-SNE_visualisation_of_word_embeddings_generated_using_19th_century_literature.png'
-     width=75%/></td></tr>
-    <tr><td>Synthetic word embeddings for the terms 'man,' 'woman,' 'king,' and 'queen' illustrates the way in which the semantic relationships between words can be represented by algebraic relationships (distance, for example) between those words' embeddings</td>
-        <td>Embeddings generated from 19th century literature: (A) Female- and male-authored plural nouns surrounded by past-participles verbs; (B) Singular gender-encoded nouns by both female and male authors nested within nouns referring to (typically male) occupations; (C) Family related nouns by only female authors, nested within a cluster of characters predominately from Jane Austen; (D) Female authored pronouns next to past-participles and past verb</td>
-</table>
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/LLMs/Word_vector_illustration.jpg" caption="Synthetic word embeddings for the terms 'man,' 'woman,' 'king,' and 'queen' illustrates the way in which the semantic relationships between words can be represented by algebraic relationships (distance, for example) between those words' embeddings">}}
+
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/LLMs/T-SNE_visualisation_of_word_embeddings_generated_using_19th_century_literature.png" caption="Embeddings generated from 19th century literature: (A) Female- and male-authored plural nouns surrounded by past-participles verbs; (B) Singular gender-encoded nouns by both female and male authors nested within nouns referring to (typically male) occupations; (C) Family related nouns by only female authors, nested within a cluster of characters predominately from Jane Austen; (D) Female authored pronouns next to past-participles and past verb">}}
 
 #### We can see embeddings in action using OpenAI's models and embedding API
 

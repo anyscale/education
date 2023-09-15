@@ -133,13 +133,13 @@ These capabilities are provided by Ray Serve
 Serve is a microservices framework for serving ML – the model serving
 component of Ray AI Libraries.
 
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/serve_architecture.png' width=700/>
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/serve_architecture.png" >}}
 
 ### Deployments
 
 `Deployment` is the fundamental user-facing element of serve.
 
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/deployment.png' width=600/>
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/deployment.png" >}}
 
 ### Our First Service
 
