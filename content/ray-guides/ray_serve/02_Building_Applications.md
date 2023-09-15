@@ -138,9 +138,7 @@ __Roadmap to English & French chat__
     1. Otherwise (if the prompt is in English), pass it straight to the chatbot as we did earlier and return the (English) response
 </div>
 
-| <img src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/system-overview-multilingual-chat.jpg" width="70%" loading="lazy"> |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                                                         Multilingual-chat - system overview                                                         |
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/system-overview-multilingual-chat.jpg" caption="Multilingual-chat - system overview" >}}
 
 Let’s look using Ray Serve to implement model inference with these composed and conditional-flow elements using Python method calls (https://docs.ray.io/en/releases-2.6.1/serve/key-concepts.html#servehandle-composing-deployments). Later we’ll look at an alternative approach using Ray’s Deployment Graph API.
 

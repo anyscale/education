@@ -28,7 +28,7 @@ Ray includes set of high-level easy-to-use APIs for
 ingesting data, training models – including reinforcement learning
 models – tuning those models and then serving them.
 
-<img src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Introduction_to_Ray_AIR/e2e_air.png" width=600 loading="lazy"/>
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Introduction_to_Ray_AIR/e2e_air.png" >}}
 
 Key principles behind Ray and its libraires are
 * Performance
@@ -141,13 +141,13 @@ serve.shutdown()
 
 Serve is a framework for serving ML applications
 
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/serve_architecture.png' width=700/>
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/serve_architecture.png" >}}
 
 # Deployments
 
 `Deployment` is the fundamental user-facing element of serve.
 
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/deployment.png' width=600/>
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/deployment.png" >}}
 
 <div class="alert alert-block alert-info">
     

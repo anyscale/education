@@ -36,7 +36,7 @@ __Roadmap to multilingual chat with deployment graphs__
 
 As a first step, to keep things simple, let’s assume for a moment that we are always interacting with the service in French. 
 
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/deployment_graph_simple.png' width=900/>
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/deployment_graph_simple.png" >}}
 
 
 ```python
@@ -138,7 +138,7 @@ We can use the pattern of adding a __combine node__ to our graph in order to mer
 
 Combining multiple values is a common requirement -- e.g., in collecting values from a model ensemble.
 
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/ensemble.png' width=900 />
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/ensemble.png" >}}
 
 
 ```python
@@ -202,7 +202,7 @@ In the first DAG demo, we were always invoking the same sequence of services, so
 
 To implement branching flow control with the DAG API, we’ll use a special pattern so that the same graph always runs … but certain nodes (in our case, translator nodes) behave differently based on data they receive.
 
-<img src='https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/deployment_graph_complex.png' width=900 />
+{{< image src="https://technical-training-assets.s3.us-west-2.amazonaws.com/Ray_Serve/deployment_graph_complex.png" >}}
 
 
 ```python
